@@ -1,3 +1,29 @@
+# Dependencies
+node_modules/
 /server/node_modules
 /client/node_modules
+
+# Arduino preprocessed & build files
+*.ino.cpp
 /server/smart_locker.ino.cpp
+server/*.ino.cpp
+*.ino.hex
+*.ino.bin
+*.ino.elf
+build/
+
+# Client build output
+/client/dist/
+dist/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+server/.env
+!*.env.example
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
