@@ -42,12 +42,12 @@
 // WI-FI & SERVER CONFIGURATION
 // =====================================================
 // NOTE: Set your Wi-Fi credentials and your computer's local IP address below.
-const char* WIFI_SSID  = "SiddhiVinayak";
-const char* WIFI_PASS  = "DeShPaNdE123";
-const char* SERVER_URL = "http://192.168.0.105:5000"; // Your PC's LAN IP on SiddhiVinayak Wi-Fi network
+const char* WIFI_SSID  = "Your_Wifi_Name";
+const char* WIFI_PASS  = "Your_Wifi_Password";
+const char* SERVER_URL = "http://Your_PC_IP_Address"; // Your PC's LAN IP on Your_Wifi_Name network
 
-const char* DEVICE_ID  = "LOCKER-01";
-const char* DEVICE_KEY = "6eabb61628ffe61985e23b3ecd42f709"; // Matches database seed
+const char* DEVICE_ID  = "Your_Device_ID";
+const char* DEVICE_KEY = "Your_Device_Key"; // Matches database seed
 
 // =====================================================
 // RC522 RFID PIN MAPPING
